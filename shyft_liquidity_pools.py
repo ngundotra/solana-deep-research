@@ -34,7 +34,7 @@ def shyft_get(path, params=None):
         print(f"HTTP error: {e}, status code: {response.status_code}, response: {response.text[:200]}")
         raise
 
-print("Starting server")
+print("Starting Shyft Liquidity Pools server")
 
 @mcp.tool
 async def search(query: str):
